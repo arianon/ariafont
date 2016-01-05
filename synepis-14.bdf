@@ -1,13 +1,13 @@
 STARTFONT 2.1
 COMMENT "Copyright by Hugo Chargois"
 COMMENT "Licensed under the WTFPL"
-FONT -arianon-Synepis-Medium-R-Normal--14-100-100-100-C-80-ISO10646-1
+FONT -arianon-Synepis-Normal-R-Normal--14-100-100-100-C-80-ISO10646-1
 SIZE 14 100 100
 FONTBOUNDINGBOX 8 14 0 -3
 STARTPROPERTIES 31
 FOUNDRY "arianon"
 FAMILY_NAME "Synepis"
-WEIGHT_NAME "Medium"
+WEIGHT_NAME "Normal"
 SLANT "R"
 SETWIDTH_NAME "Normal"
 ADD_STYLE_NAME ""
