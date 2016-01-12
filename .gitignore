@@ -1,3 +1,5 @@
 .crystal/
 *.bak
 *.pcf
+
+UnicodeData.txt
