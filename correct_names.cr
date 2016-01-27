@@ -1,8 +1,8 @@
-#!/usr/bin/crystal
+# !/usr/bin/crystal
 
 require "json"
 
-font = File.read_lines(ARGV[0]? || "synepis-14.bdf")
+font = File.read_lines(ARGV[0]? || "ariafont.bdf")
 unicode = JSON.parse(File.read("UnicodeData.json"))
 
 io = MemoryIO.new

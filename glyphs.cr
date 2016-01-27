@@ -1,6 +1,6 @@
-#!/usr/bin/crystal
+# !/usr/bin/crystal
 
-font = File.read_lines(ARGV[0]? || "synepis-14.bdf")
+font = File.read_lines(ARGV[0]? || "ariafont.bdf")
 
 foldn = 0
 io = MemoryIO.new
