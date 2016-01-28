@@ -1,10 +1,8 @@
 # !/usr/bin/crystal
 
-font = File.read_lines(ARGV[0]? || "ariafont.bdf")
-
 foldn = 0
 io = MemoryIO.new
-font.each do |line|
+File.each_line(ARGV[0]? || "ariafont.bdf") do |line|
   next unless line.starts_with? "ENCODING "
 
   character = line[/\d+/].to_i
