@@ -1,4 +1,4 @@
-# !/usr/bin/crystal
+#!/usr/bin/crystal
 
 foldn = 0
 io = MemoryIO.new
